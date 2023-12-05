@@ -5,8 +5,18 @@ module.exports = {
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+    },
+    boxShadow: {
+      navbar: "0px 10px 8px 0px rgba(198, 189, 240, 0.3), 0 2px 3px -1px rgba(198, 189, 240, 0.3)"
+    }
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/line-clamp"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio")
+  ],
 }
 
