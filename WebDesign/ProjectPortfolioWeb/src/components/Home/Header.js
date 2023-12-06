@@ -8,8 +8,8 @@ function Header(){
                 <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
                     <div>
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                        <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                        <span className="text-gray-600">
+                        <div className="relative pb-10overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                        <span className="text-gray-600 ">
                             Learn about our work.{' '}
                             <Link to="/Blog" className="font-semibold text-blue-900">
                             <span className="absolute inset-0" aria-hidden="true" />
@@ -19,7 +19,7 @@ function Header(){
                         </div>
                     </div>
                     <div>
-                        <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+                        <h1 className="text-4xl font-bold tracking-tight pb-10 sm:text-center sm:text-7xl">
                         Data to <span> </span>
                         <div className="inline-flex text-blue-900">
                             <Typewriter
