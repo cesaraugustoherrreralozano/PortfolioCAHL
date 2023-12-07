@@ -16,7 +16,7 @@ export default function BlogsHero(){
 
                 <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-gray-500">At CAHL Analytics you will discover more about our areas of interest.</p>
 
-                <Link to="/Blog" class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more"> Read more about our interests » </Link>
+                <Link to="/Hire" class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600" title="read more"> Start your journey with us » </Link>
                 </div>
             </div>
         </section>
