@@ -25,7 +25,7 @@ function Navbar(){
     return(
         <nav id='navbar' className = "w-full z-40 transition duration-5000 ease-in-out fixed"> 
             <div className="px-4 sm:px-6">
-                <div className="-ml-4 -mt-2 flex flex-wrap items-center justify-between sm:flex-nowrap md:px-10 px-2">
+                <div className="-ml-4 -mt-2  hidden md:flex flex-wrap items-center justify-between sm:flex-nowrap md:px-10 px-2">
                     <Link to="/" className="ml-4 mt-2">
                     <img src={logo_cahl} width={150} height={90} className=""/>
                     </Link>
@@ -41,6 +41,16 @@ function Navbar(){
                         Hire us
                         <CircleLoader className="ml-3 -mr-1 h-5 w-5" loading={loading} size={15} color="#ffffff" aria-hidden="true" />
                     </Link>
+                    </div>
+                </div>
+                <div className="-ml-4 -mt-2 md:hidden flex flex-wrap items-center justify-between sm:flex-nowrap md:px-10 px-2">
+                    <Link to="/" className="ml-4 mt-2">
+                    <img src={logo_cahl} width={150} height={90} className=""/>
+                    </Link>
+                    <div className="ml-4 mt-2 flex-shrink-0">
+                    <button>
+                            <i className='bx bx-menu text-4xl'></i>
+                    </button>
                     </div>
                 </div>
             </div>
