@@ -20,5 +20,5 @@ SELECT [DateKey]
       --,[FiscalYear]
       --,[FiscalSemester]
   FROM [AdventureWorksDW2019].[dbo].[DimDate] as date
-  WHERE date.CalendarYear >= 2021
+  WHERE date.CalendarYear BETWEEN (2019) AND (2023)
   ORDER BY date.CalendarYear;
