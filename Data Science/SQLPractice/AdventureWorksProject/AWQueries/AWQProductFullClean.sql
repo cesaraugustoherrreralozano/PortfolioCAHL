@@ -1,4 +1,9 @@
-SELECT p.ProductKey, p.EnglishProductName as 'productName'
+
+
+SELECT p.ProductKey
+,pc.ProductCategoryKey
+,psc.ProductSubcategoryKey
+,p.EnglishProductName as 'productName'
 , p.SafetyStockLevel, p.ReorderPoint, p.DaysToManufacture 
 , pc.EnglishProductCategoryName as 'categoryName'
 , psc.EnglishProductSubcategoryName as 'subCategoryName'
