@@ -280,6 +280,15 @@ sketch
 
 ### Files ###
 creditcard.csv
+archivo_final_indicativo.txt
+archivo_final.txt
+txtFindPattern.ipynb 
+municipalities.geojson
+istat_administrative_units_2022.gpkg
+
+
+### Folders ###
+ListaTelefonos
 
 # End of https://www.toptal.com/developers/gitignore/api/react,python,django
 #Data Science/SQLPractice/AdventureWorksProject/Dashboard/AWPowerBi.pbix
